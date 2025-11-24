@@ -1,0 +1,28 @@
+.container-jobs{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.container-job{
+    width: 19rem;  
+    border: 2px solid black;
+}
+
+.container-job h2{
+    text-align: center;
+    text-shadow:
+    -1px -1px 0 black;
+    color:  rgb(230, 142, 11);
+}
+
+.container-job dt{
+    margin-left: 2.5rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+
+.container-job dd{
+    margin-bottom: 1rem;
+}
