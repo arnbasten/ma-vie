@@ -32,3 +32,42 @@ img{
     margin-top: 2rem;
 }
 
+/* === TABLETTE — ÉCRANS ≥ 768px === */
+@media (min-width: 768px) {
+    .container-btn {
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    button {
+        width: 14rem;
+        font-size: 1.8rem;
+    }
+
+    img {
+        max-width: 60%;
+    }
+}
+
+/* === DESKTOP — ÉCRANS ≥ 1024px === */
+@media (min-width: 1024px) {
+    .container-btn {
+        justify-content: space-around;
+        max-width: 900px;
+        margin: 0 auto;
+    }
+
+    button {
+        width: 12rem;
+        font-size: 1.1rem;
+    }
+
+    .container-image {
+        max-width: 900px;
+        margin: 0 auto;
+    }
+
+    img {
+        max-width: 50%;
+    }
+}
