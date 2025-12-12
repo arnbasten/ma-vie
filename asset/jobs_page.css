@@ -1,11 +1,15 @@
 .container-jobs{
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 20px;
+    padding: 0 1rem;
 }
 
 .container-job{
-    width: 19rem;  
+    box-sizing: border-box;
+    flex: 1 1 19rem;
+    max-width: 19rem;  
     border: 2px solid black;
 }
 
@@ -25,4 +29,16 @@
 
 .container-job dd{
     margin-bottom: 1rem;
+}
+
+@media (max-width: 768px){
+    .container-job{
+        max-width: 100%;
+        flex-basis: 100%;
+    }
+
+    .container-job dt{
+        margin-left: 1rem;
+    }
+
 }
