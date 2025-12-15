@@ -1,0 +1,44 @@
+.accountancy{
+    display: flex;
+    flex-direction: column;
+}
+
+.accountancy h2{
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.bloc_text1{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.bloc_text1 p{
+    flex: 1;
+    font-size: 1.5rem;
+}
+
+.bloc_text1 img{
+    width: 60%;
+    max-width: 50rem;
+    height: auto;
+}
+.bloc_text2{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-direction: row-reverse;
+}
+
+.bloc_text2 p{
+    flex: 1;
+    font-size: 1.5rem;
+}
+
+.bloc_text2 img{
+    width: 60%;
+    max-width: 30rem;
+    height: auto;
+
+}
