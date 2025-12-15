@@ -20,12 +20,10 @@ Vie en communauté
 - Technicien service client
 
 ## Mes loisirs et intérêts <!-- mise en boutons clicable vers une page dédiée>
-- voyages France et étranger
+- voyages France
+- voyages étranger
 - le milieu de la mer
-- la couture
-- la relaxation
-- médecine chinoise (bols chantants, apucompture)
-- tambour chamanique
+- médecine chinoise (bols chantants, apucompture) la relaxation tambour chamanique
 - bricolage (bois, pomberie, électricité)
 
 
