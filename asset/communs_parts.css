@@ -17,6 +17,7 @@ header h1{
     text-align: center;
     padding: 1rem;
     text-transform: uppercase;
+    border-radius: 40%;
     
 }
 
@@ -34,12 +35,14 @@ header h1{
     flex: 1 1 19rem;
     max-width: 19rem;  
     border: 2px solid black;
+    border-radius: 10%;
 }
 
 .card h2{
     text-align: center;
     text-shadow:
     -1px -1px 0 black;
+    text-transform: uppercase;
     color:  rgb(230, 142, 11);
 }
 
@@ -48,10 +51,11 @@ header h1{
     font-weight: bold;
     text-transform: capitalize;
     text-decoration: underline;
+    padding-bottom: 1rem;
 }
 
 .card dd{
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
 }
 
 
