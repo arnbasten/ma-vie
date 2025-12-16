@@ -18,6 +18,7 @@ Vie en communauté
 - Aide éducateur
 - Assistant de vie scolaire
 - Technicien service client
+- Concepteur développeur web
 
 ## Mes loisirs et intérêts <!-- mise en boutons clicable vers une page dédiée>
 - voyages France
