@@ -8,8 +8,8 @@ créer fichier html et css pour chaque bouton de jobs_page
 [👌] accountancy html & css ---> à modifier en accounting
 [👌] teach_helper
 [👌] assistance_disabilities
-[] telecom_service_desk
-[] web_dev
+[👌] telecom_service_desk
+[👌] web_dev
 [] harmonisation css refactor responsive
 [] dynamisation JS
 [] reprendre les bloc_text - vérifier les dates - vérifier les durée de contrats et de formations (années et mois)
