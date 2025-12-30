@@ -1,12 +1,33 @@
-.accountancy{
-    display: flex;
-    flex-direction: column;
+.job h2{
+   font-style: oblique;
+    text-align: center;
+    padding-bottom: 2rem; 
 }
 
-.accountancy h2{
-    text-align: center;
-    padding-bottom: 2rem;
+/* ===== mono text ===== */
+.bloc_text{
+    margin: 2rem 20.5rem ;
+    
 }
+
+.bloc_text h3{
+    
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 2rem;
+    padding-top: 2rem;
+    border-top: 2px solid black;
+
+}
+
+.custom_list li{
+    list-style-position: outside;
+    margin-left: 3rem;
+    padding-bottom: 0.5rem;
+}
+
+
+/* ===== multi texts ===== */
 
 .bloc_text1{
     display: flex;
@@ -17,6 +38,7 @@
 .bloc_text1 p{
     flex: 1;
     font-size: 1.5rem;
+    padding-top: 0.5rem;
 }
 
 .bloc_text1 img{
