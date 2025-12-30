@@ -6,8 +6,9 @@
 
 /* ===== mono text ===== */
 .bloc_text{
-    margin: 2rem 20.5rem ;
-    
+    margin: 2rem auto;
+    padding: 0 1rem;
+    max-width: 70rem;
 }
 
 .bloc_text h3{
@@ -41,10 +42,11 @@
     padding-top: 0.5rem;
 }
 
-.bloc_text1 img{
-    width: 60%;
-    max-width: 50rem;
+.bloc_text1 img,
+.bloc_text2 img{
+    max-width: 100%;
     height: auto;
+    display: block;
 }
 .bloc_text2{
     display: flex;
@@ -58,9 +60,25 @@
     font-size: 1.5rem;
 }
 
-.bloc_text2 img{
-    width: 60%;
-    max-width: 30rem;
-    height: auto;
+@media (max-width: 768px){
+    .bloc_text1,
+    .bloc_text2{
+        flex-direction: column;
+        align-items: stretch;
+    }
 
+    .bloc_text1 img,
+    .bloc_text2 img{
+        width: 100%;
+        max-width: none;
+    }
+
+    .bloc_text1 p,
+    .bloc_text2 p{
+        font-size: 1.1rem;
+    }
+
+    .custom_list li{
+        margin-left: 1.25rem;
+    }
 }
