@@ -12,5 +12,11 @@ créer fichier html et css pour chaque bouton de jobs_page
 [👌] web_dev
 [👌] harmonisation css 
 [👌] refactor responsive
-[] dynamisation JS
+
+dynamisation JS
+[👌] ajout des partials html
+[] js pour dynamiser les boutons de home_page et de jobs_page
+[]
+[]
+
 [] reprendre les bloc_text - vérifier les dates - vérifier les durée de contrats et de formations (années et mois)
