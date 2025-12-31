@@ -1,20 +1,23 @@
 /* ===== BOUTONS ===== */
 .container-btn{
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
-    gap: 0.5rem;
+    flex-wrap: wrap;
+     gap: 0.5rem;
     padding: 0 1rem;
 }
 
-button{
-    flex: 1 1 calc(50% - 0.5rem);
-    text-transform: capitalize;
-    font-weight: bold;
+a.btn{
+    width:13rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     background-color: rgb(224, 170, 89);
     padding: 0.5rem 1rem;
     border: none;
-    min-height: 5.5rem;
+    min-height: 2.5rem;
     border-radius: 10%;
 }
 

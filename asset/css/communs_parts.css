@@ -66,6 +66,12 @@ header h1{
     border-radius: 10%;
 }
 
+a.btn{
+    margin: auto auto 1rem auto ;
+    background-color: rgb(230, 142, 11);
+    border-radius: 10%;
+}
+
 
 /* ===== FOOTER ===== */
 
